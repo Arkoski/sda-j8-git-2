@@ -2,8 +2,10 @@ package me.jurec;
 
 public class Main {
 
+
     public static void main(String[] args) {
-        System.out.println(calculateTheAnswer());
+        System.out.println("Answer is:" + calculateTheAnswer());
+
     }
 
     public static int calculateTheAnswer() {
@@ -19,4 +21,6 @@ public class Main {
     private static int multiply(int a, int b) {
         return 0;
     }
+
+
 }
